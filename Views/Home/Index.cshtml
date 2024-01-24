@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h3 class="display-4">Olá! Bem-Vindo!</h3>
+    <h1 class="displau-6">Veja todos os Pokemons na Pokedex!</h1>
+</div>
+
+<main>
+    <img src="" alt="pokemon" class="pokemon_image">
+
+    <h1 class="pokemon_data">
+        <span class="pokemon_number"></span> -
+        <span class="pokemon_name"></span>
+    </h1>
+
+    <form class="form">
+        <input type="search"
+               class="input_search"
+               placeholder="faça ologin para acessar a Pokedex"
+               required />
+    </form>
+
+    <div class="buttons">
+        <button class="button btn-login" onclick="functionRegister()">Login</button>
+    </div>
+
+    <img src="~/img/pokedex.png" alt="pokedex">
+</main>
+
